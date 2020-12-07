@@ -14,7 +14,3 @@ provider "aws" {
   version = ">=3.20.0"
   region = "ap-southeast-2"
 }
-
-module "dynamodb" {
-  source = "./modules/dynamodb"
-}
